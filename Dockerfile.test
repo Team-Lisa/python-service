@@ -10,7 +10,7 @@ RUN poetry config virtualenvs.create false \
   && poetry install --no-interaction --no-ansi
 CMD mkdir covid_service
 CMD mkdir tests
-COPY ./covid_service /app/covid_service
+COPY ./api /app/api
 COPY ./tests /app/tests
 
 CMD python3 -m pytest ./tests
