@@ -1,5 +1,5 @@
-# Descripcion
+### Descripcion
 
-# Criterios de aceptacion
+### Criterios de aceptacion
 
-# Issue asociado
+### Issues asociados
