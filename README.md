@@ -1,5 +1,7 @@
 # Base Python Service
 
+[![.github/workflows/pipeline.yml](https://github.com/Team-Lisa/python-service/actions/workflows/pipeline.yml/badge.svg?branch=master)](https://github.com/Team-Lisa/python-service/actions/workflows/pipeline.yml)
+
 ## Local Mode
 
 #### Requirements
