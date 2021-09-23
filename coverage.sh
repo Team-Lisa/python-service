@@ -6,4 +6,4 @@ poetry config virtualenvs.create false \
 
 coverage run --source=api -m pytest tests/
 
-COVERALLS_REPO_TOKEN=$TOKEN_COVERALLS coveralls
+COVERALLS_REPO_TOKEN=4Z97eo3QPt2mW3wEx33xcTQhLwcyZUpFf coveralls
