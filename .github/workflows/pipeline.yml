@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
-      - name: Unit tests
-        run: sh coverage.sh
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Unit tests
+        run: sh coverage.sh
