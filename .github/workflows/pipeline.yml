@@ -38,4 +38,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Unit tests
-        run: sh coverage.sh
+        run: COVERALLS_REPO_TOKEN=${{ secrets.TOKEN_COVERALLS }} sh coverage.sh
