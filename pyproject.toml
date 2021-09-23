@@ -11,6 +11,7 @@ uvicorn = "^0.15.0"
 pydantic = "^1.8.2"
 coverage = "^5.5"
 datadog = "^0.41.0"
+coveralls = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

@@ -1,6 +1,7 @@
 # Base Python Service
 
 [![.github/workflows/pipeline.yml](https://github.com/Team-Lisa/python-service/actions/workflows/pipeline.yml/badge.svg?branch=master)](https://github.com/Team-Lisa/python-service/actions/workflows/pipeline.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Team-Lisa/python-service/badge.svg)](https://coveralls.io/github/Team-Lisa/python-service)
 
 ## Local Mode
 
@@ -30,3 +31,16 @@
 ## Documentation
 You can see the automatic interactive API documentation using the endpoint: ```/docs```
 
+## Repository Setup
+
+You need to configure the following secrets
+
+### Heroku
+
+- ```HEROKU_API_KEY```
+- ```HEROKU_APP_NAME```
+- ```HEROKU_EMAIL```
+
+### Coveralls
+
+- ```COVERALLS_TOKEN```
