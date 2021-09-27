@@ -1,5 +1,7 @@
+from api.Repositories.user_repository import UserRepository
 from api.models.user import User
 from fastapi import HTTPException
+import json
 
 
 class UserController:
@@ -7,8 +9,8 @@ class UserController:
     @staticmethod
     def create(user):
         user = User(user.name)
-        # save user
-        return {"user": user.json()}
+        result = UserRepository().add_user(user)
+        return {"user": json.loads(result.to_json())}
 
 
     @staticmethod
