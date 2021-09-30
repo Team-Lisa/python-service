@@ -44,3 +44,8 @@ You need to configure the following secrets
 ### Coveralls
 
 - ```COVERALLS_TOKEN```
+
+
+### MongoDB
+
+- ```DB_PASSWORD```
