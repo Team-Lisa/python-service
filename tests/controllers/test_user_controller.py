@@ -5,7 +5,7 @@ from api.models.requests.user import User
 from fastapi import HTTPException
 
 
-def test_response():
+def test_response(init):
     name = "mockname"
     user = User(name=name)
     response = UserController.create(user)
@@ -16,7 +16,7 @@ def test_response():
     }
 
 
-def test_user_not_found():
+def test_user_not_found(init):
     name = "mockname"
 
     with pytest.raises(HTTPException) as e_info:
