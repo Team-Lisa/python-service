@@ -1,7 +1,9 @@
 import uvicorn
 from fastapi import FastAPI
 from api.routes import helpers, users
+from api.Repositories.db import DataBase
 app = FastAPI()
+DataBase()
 
 app.include_router(helpers.router)
 app.include_router(users.router)

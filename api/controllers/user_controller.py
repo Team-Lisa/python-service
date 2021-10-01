@@ -9,7 +9,7 @@ class UserController:
     @staticmethod
     def create(user):
         user = User(name = user.name)
-        result = UserRepository().add_user(user)
+        result = UserRepository.add_user(user)
         return {"user": result.to_json()}
 
 
